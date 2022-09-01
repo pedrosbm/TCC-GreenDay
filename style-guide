@@ -1,0 +1,15 @@
+fontes a serem usadas:
+
+    Dm sans - regular 400
+
+    Rubik - semibold 600
+
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+cores a serem usadas :root
+
+    backgound - 1E1E1E
+    font - E6EDEE
+    header - 101010
+
