@@ -7,9 +7,9 @@ fontes a serem usadas:
     font-family: 'DM Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
 
-cores a serem usadas :root
+cores que serão usadas :root
 
     backgound - 1E1E1E
     font - E6EDEE
-    header - 101010
-
+    header / footer - 101010
+    link - 359EFF
