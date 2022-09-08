@@ -1,11 +1,59 @@
-header  {
+html {
+    color: var(--smooth-blue);
+}
+
+h1  {
+    font-weight: 600;
+    font-size: 2,875rem;
+}
+
+h2  {
+    font-weight: 600;
+    font-size: 1,5rem;
+}
+
+strong  {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+header {
+    background: var(--back-in-black);
     display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header, figure {
+    display: flex;
+    align-items: center;
 
 }
 
-ul, li  {
-    list-style: none;
+header figure h1 {
+    padding: 0.5rem;
+}
+
+ul, li {
+    padding-inline: 0.5rem;
     display: flex;
-    justify-content: left;
-    
+    flex-direction: row;
+    list-style: none;
+    color: var(--smooth-blue);
+}
+
+main {
+    background: var(--grafite);
+}
+
+footer p {
+    color: var(--link);
+}
+
+footer {
+    background: var(--back-in-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
 }
