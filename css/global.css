@@ -1,27 +1,39 @@
 html {
     font-family: 'DM Sans', sans-serif;
     color: var(--smooth-blue);
+    background-color: var(--grafite);
+    scroll-behavior: smooth;
+}
+
+p, span   {
+    font-weight: 400;
+    letter-spacing: 0.15em;
 }
 
 a   {
     text-decoration: none;
+    color: inherit;
+    letter-spacing: 0.15em;
 }
 
 h1  {
     font-weight: 600;
-    font-size: 2,875rem;
+    letter-spacing: 0.15em;
+    font-size: 2.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
 h2  {
     font-weight: 600;
-    font-size: 1,5rem;
+    letter-spacing: 0.15em;
+    font-size: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
 strong  {
     font-weight: 600;
-    font-size: 1rem;
+    letter-spacing: 0.15em;
+    font-size: 0.8rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -31,7 +43,9 @@ header {
     justify-content: space-between;
     padding-inline: 1.5rem;
     padding-block: 1rem;
-
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
 }
 
 header, figure {
@@ -49,14 +63,27 @@ ul, li {
 
 header figure h1    {
     padding-inline: 1rem;
+    font-size: 2rem;
 }
 
-main {
-    background: var(--grafite);
+figure, img{
+    border-radius: 0.5rem;
 }
+
+main h1 {
+    margin-block: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+main p  {
+    margin-bottom: 1rem;
+}
+
 
 footer p {
     color: var(--link);
+    font-weight: bold;
 }
 
 footer {
