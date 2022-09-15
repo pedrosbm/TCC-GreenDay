@@ -49,6 +49,7 @@ header {
     padding-block: 1rem;
     margin-bottom: 1.5rem;
     position: sticky;
+    top: 0;
 }
 
 header, figure {
