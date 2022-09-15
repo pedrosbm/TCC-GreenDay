@@ -5,11 +5,10 @@
 
 .first-section  {
     display: flex;
-    margin-inline: 12.5rem;
-    width: 1133px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100rem;
     height: 320px;
-    left: 157px;
-    top: 221px;
 }
 
 .first-section__content {
@@ -19,10 +18,18 @@
 }
 
 
+.second-section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100rem;
+    height: 320px;
+}
+
 .decoration {
     display: flex;
     align-items: center;
-    width: 1348px;
+    width: 100%;
     height: 1px;
     margin-block: 5rem;
     background: linear-gradient(90deg, #131616 0%, #C1FFB7 35.94%, #F4F4F4 48.96%, #C1FFB7 61.98%, #131616 100%);

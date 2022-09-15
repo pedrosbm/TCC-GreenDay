@@ -5,36 +5,39 @@ html {
     scroll-behavior: smooth;
 }
 
-p, span   {
+p, span {
     font-weight: 400;
     letter-spacing: 0.15em;
 }
 
-a   {
+a {
     text-decoration: none;
     color: inherit;
     letter-spacing: 0.15em;
 }
 
-h1  {
+h1 {
     font-weight: 600;
     letter-spacing: 0.15em;
     font-size: 2.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
-h2  {
+h2 {
     font-weight: 600;
     letter-spacing: 0.15em;
     font-size: 1.5rem;
     font-family: 'Rubik', sans-serif;
+    margin-bottom: 1rem
 }
 
-strong  {
+strong {
     font-weight: 600;
     letter-spacing: 0.15em;
     font-size: 0.8rem;
     font-family: 'Rubik', sans-serif;
+    display: block;
+    margin-bottom: 1rem;
 }
 
 header {
@@ -61,25 +64,24 @@ ul, li {
     color: var(--smooth-blue);
 }
 
-header figure h1    {
+header figure h1 {
     padding-inline: 1rem;
     font-size: 2rem;
 }
 
-figure, img{
+figure, img {
     border-radius: 0.5rem;
 }
 
 main h1 {
-    margin-block: 2rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 1.5rem;
 }
 
-main p  {
+main p {
     margin-bottom: 1rem;
 }
-
 
 footer p {
     color: var(--link);
