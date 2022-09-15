@@ -14,16 +14,22 @@
 .first-section__content {
     display: flex;
     flex-direction: column;
-    margin: 2.5rem;
+    margin-left: 2.5rem;;
+    width: 100rem;
 }
-
 
 .second-section {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
     width: 100rem;
-    height: 320px;
+
+}
+
+.second-section > div {
+    width: 49rem;
+    height: 205.95px;
 }
 
 .decoration {
