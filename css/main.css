@@ -37,6 +37,29 @@
     margin-right: auto;
     padding-inline: 8rem;
     padding-bottom: 6rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.third-section figure   {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.third-section img  {
+    margin-bottom: 1rem;
+    width: 22rem;
+    height: 22rem;
+}
+
+.third-section__first-line  {
+    display: flex;
+}
+
+.third-section__second-line  {
+    display: flex;
 }
 
 .decoration {
