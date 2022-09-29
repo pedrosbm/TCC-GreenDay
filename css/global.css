@@ -84,6 +84,15 @@ main p {
     margin-bottom: 1rem;
 }
 
+iframe  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 64rem;
+    padding-inline: 8rem;
+    padding-bottom: 6rem;
+}
+
 footer p {
     color: var(--link);
     font-weight: bold;
@@ -92,7 +101,11 @@ footer p {
 footer {
     background: var(--back-in-black);
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer > .decoration    {
+    margin-bottom: 0;
 }
