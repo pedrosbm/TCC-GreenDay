@@ -77,7 +77,7 @@ figure, img {
 main h1 {
     display: flex;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    margin: 5rem;
 }
 
 main p {
