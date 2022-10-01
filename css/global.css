@@ -8,26 +8,26 @@ html {
 
 p, span {
     font-weight: 400;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
     text-align: justify;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
 }
 
 h1 {
     font-weight: 600;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
     font-size: 2.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
 h2 {
     font-weight: 600;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
     font-size: 1.5rem;
     font-family: 'Rubik', sans-serif;
     margin-bottom: 1rem
@@ -35,7 +35,7 @@ h2 {
 
 strong {
     font-weight: 600;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
     font-size: 0.8rem;
     font-family: 'Rubik', sans-serif;
     display: block;
@@ -71,12 +71,12 @@ header figure h1 {
     font-size: 2rem;
 }
 
-figure, img {
-    border-radius: 0.5rem;
+figure {
 }
 
 img {
-    max-width: 100%;
+    border-radius: 0.5rem;
+    width: 100%;
     height: auto;
 }
 
@@ -93,8 +93,8 @@ main p {
 iframe  {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 64rem;
+    width: 100%; 
+    height: auto;
     padding-inline: 15rem;
     padding-bottom: 13rem;
 }
@@ -110,4 +110,10 @@ footer {
     align-items: center;
     text-align: center;
     flex-direction: column;
+}
+
+hr {
+    height: 1px;
+    background: var(--green-gloo);
+    border: none;
 }
