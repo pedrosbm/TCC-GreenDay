@@ -50,6 +50,7 @@ header {
     width: 100%;
     background: var(--back-in-black);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-inline: 1.5rem;
     padding-block: 1rem;
@@ -76,7 +77,7 @@ header figure h1 {
 }
 
 img {
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     width: 100%;
     height: auto;
 }
