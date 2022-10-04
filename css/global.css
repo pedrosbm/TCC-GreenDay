@@ -138,7 +138,7 @@ footer hr {
 }
 
 hr {
-    height: 2px;
+    height: 0.1vh;
     background: var(--green-gloo);
     border: none;
 }
