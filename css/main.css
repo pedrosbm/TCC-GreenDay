@@ -37,7 +37,7 @@
 .third-section__box figure {
     flex-direction: column;
     align-items: center;
-    flex: 1;
+        flex: 1;
     padding: 1.5rem;
 }
 
