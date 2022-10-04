@@ -6,11 +6,15 @@ html {
     scroll-padding: 10rem;
 }
 
+.mobile{
+    display: none;
+}
+
 section {
     margin-block: 5rem;
 }
 
-p, span {
+p, figure > span {
     font-weight: 400;
     letter-spacing: 0.15rem;
     text-align: justify;
@@ -22,12 +26,14 @@ a {
     letter-spacing: 0.15rem;
 }
 
-h1 {
+h1, h1 > span{
+    display: block ;
     font-weight: 600;
     letter-spacing: 0.15rem;
     font-size: 2.5rem;
     font-family: 'Rubik', sans-serif;
 }
+
 
 h2 {
     font-weight: 600;
@@ -109,7 +115,7 @@ main p {
 
 iframe  {
     width: 100%;
-    height: auto;
+    height: 88vh;
 }
 
 footer p {
@@ -132,7 +138,7 @@ footer hr {
 }
 
 hr {
-    height: 1px;
+    height: 2px;
     background: var(--green-gloo);
     border: none;
 }

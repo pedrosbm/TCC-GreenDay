@@ -17,11 +17,14 @@
     display: flex;
     justify-items: auto;
     padding-inline: 10rem;
+    align-items: baseline;
 }
 
-.second-section__content {
+.second-section__content, .second-section__content2 {
     flex: 1;
-    margin-right: 1rem;
+}
+.second-section__content2 {
+    margin-inline-start: 1rem;
 }
 
 .third-section__box {
