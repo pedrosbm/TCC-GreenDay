@@ -1,0 +1,114 @@
+@media (max-width: 720px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+    #btn-mobile {
+        display: block;
+    }
+
+    ul {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 5.5rem;
+        right: 0px;
+        background: var(--back-in-black);
+        transition: .6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: auto;
+    }
+
+    #nav.active #menu {
+        height: calc(50vh - 5.5rem);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.096);/*Mude a cor se quiser*/ /*tabom amorzinho <3*/
+    }
+
+    .first-section__box {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 3rem;
+    }
+    
+    .first-section__content {
+        margin-top: 2.5rem;
+        margin-left: 0;
+    }
+    
+    .second-section__box {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 3rem;
+    }
+    
+    .second-section__content {
+        margin-block-end: 2.5rem;
+        margin-right: 0;
+    }
+    
+    .third-section__box {
+        justify-content: flex-start;
+        display: flex;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    
+    .third-section__box figure {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .third-section__box img {
+        width: 10rem;
+    }
+    
+    .fourth-section__box {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 3rem;
+    }
+    
+    .fourth-section__first-box {
+        margin-right: 0rem;
+        margin-block-end: 2.5rem;
+    }
+    
+    .fifth-section__box {
+        justify-content: flex-start;
+        display: flex;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    
+    .fifth-section__box figure {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    
+    .fifth-section__box img {
+        border-radius: 100%;
+        width: 10rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-content {
+        margin: 3rem;
+    }
+    
+    .sixth-section__box {
+        align-items: flex-start;
+        display: flex;
+        padding-inline: 5rem;
+    }
+}

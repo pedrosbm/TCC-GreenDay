@@ -50,7 +50,6 @@ header {
     width: 100%;
     background: var(--back-in-black);
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-inline: 1.5rem;
     padding-block: 1rem;
@@ -63,10 +62,26 @@ header, figure {
     align-items: center;
 }
 
+#btn-mobile {
+    display: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+button > img{
+    border-radius: 0;
+    height: none;
+}
+
 ul, li {
     padding-inline: 0.5rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     color: var(--smooth-blue);
 }
