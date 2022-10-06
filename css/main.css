@@ -9,6 +9,10 @@
     padding-inline: 10rem;
 }
 
+.first-section__box figure{
+    flex: 1;
+}
+
 .first-section__content {
     margin-left: 2.5rem;
     flex: 1;
@@ -29,7 +33,7 @@
     margin-inline-start: 1rem;
 }
 
-.fourth-section__second-box {
+.fourth-section__second-box{
     flex: 1;
 }
 
@@ -45,6 +49,7 @@
     align-items: center;
     flex: 1;
     padding: 1.5rem;
+    width: 20vw;
 }
 
 .third-section__box img {
@@ -70,6 +75,20 @@
 .fourth-section__first-box {
     margin-right: 1rem;
     flex: 1;
+}
+
+.fourth-section__second-box ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.fourth-section__second-box ul li{
+    list-style: circle;
+}
+
+.fourth-section__box a  {
+    color: var(--link);
 }
 
 .fifth-section__box {

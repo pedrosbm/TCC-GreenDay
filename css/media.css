@@ -65,7 +65,7 @@
     #menu a{
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 1px solid var(--smooth-blue);
+        border-bottom: 1px solid var(--smooth-blue, 0.5);
         font-size: 1.4rem;
     }
 
@@ -111,6 +111,7 @@
         flex-direction: column;
         align-items: center;
         padding: 1.5rem;
+        width: auto;
     }
 
     .third-section__box img {
@@ -140,7 +141,8 @@
     .fifth-section__box figure {
         flex-direction: column;
         align-items: center;
-        padding: 1.5rem;
+        margin-inline: 0;
+        width: 100%;
     }
     
     .fifth-section__box img {
