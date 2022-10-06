@@ -80,7 +80,7 @@ button {
 
 button > img{
     border-radius: 0;
-    height: none;
+    width: 4.5rem;
 }
 
 ul, li {
