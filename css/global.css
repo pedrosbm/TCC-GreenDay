@@ -4,6 +4,7 @@ html {
     background-color: var(--grafite);
     scroll-behavior: smooth;
     scroll-padding: 10rem;
+    font-size: 62.5%;
 }
 
 .mobile{
@@ -11,26 +12,44 @@ html {
 }
 
 section {
-    margin-block: 5rem;
+    margin-block: 6.2rem;
 }
 
-p, figure > span {
+p, .flex-auxiliar > span {
     font-weight: 400;
     letter-spacing: 0.15rem;
+    font-size: 1.6rem;
+}
+
+.flex-auxiliar{
+    display: flex;
+    width: auto;
+    height: -webkit-fill-available;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
     text-align: justify;
+    font-size: 1.6rem;
+}
+
+.flex-auxiliar > span, figure > p {
+    text-align: center;
 }
 
 a {
     text-decoration: none;
     color: inherit;
     letter-spacing: 0.15rem;
+    font-size: 2.4rem;
 }
 
 h1, h1 > span{
     display: block ;
     font-weight: 600;
     letter-spacing: 0.15rem;
-    font-size: 2.5rem;
+    font-size: 4.6rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -38,7 +57,7 @@ h1, h1 > span{
 h2 {
     font-weight: 600;
     letter-spacing: 0.15rem;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-family: 'Rubik', sans-serif;
     margin-bottom: 1rem
 }
@@ -46,7 +65,7 @@ h2 {
 strong {
     font-weight: 600;
     letter-spacing: 0.15rem;
-    font-size: 0.8rem;
+    font-size: 1.6rem;
     font-family: 'Rubik', sans-serif;
     display: block;
     margin-bottom: 1rem;
@@ -84,7 +103,7 @@ button > img{
 }
 
 ul, li {
-    padding-inline: 0.5rem;
+    padding-inline: 1.0rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,7 +113,7 @@ ul, li {
 
 header figure h1 {
     padding-inline: 1rem;
-    font-size: 2rem;
+    font-size: 3.6rem;
 }
 
 img {
@@ -138,7 +157,7 @@ footer hr {
 }
 
 hr {
-    height: 0.1vh;
+    height: 0.12vh;
     background: var(--green-gloo);
     border: none;
 }

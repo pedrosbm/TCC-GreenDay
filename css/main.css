@@ -1,6 +1,6 @@
 .img-header {
-    width: 3.75rem;
-    height: 3.75rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .first-section__box {
@@ -11,6 +11,7 @@
 
 .first-section__content {
     margin-left: 2.5rem;
+    flex: 1;
 }
 
 .second-section__box {
@@ -23,8 +24,13 @@
 .second-section__content, .second-section__content2 {
     flex: 1;
 }
+
 .second-section__content2 {
     margin-inline-start: 1rem;
+}
+
+.fourth-section__second-box {
+    flex: 1;
 }
 
 .third-section__box {
@@ -63,6 +69,7 @@
 
 .fourth-section__first-box {
     margin-right: 1rem;
+    flex: 1;
 }
 
 .fifth-section__box {
@@ -75,7 +82,9 @@
 .fifth-section__box figure {
     flex-direction: column;
     align-items: center;
+    margin-inline: 4rem;
     padding: 1.5rem;
+    width: 15vw;
 }
 
 .fifth-section__content {
@@ -85,6 +94,8 @@
 .fifth-section__box img {
     border-radius: 100%;
     margin-bottom: 1rem;
+    width: 15vw;
+
 }
 
 .footer-content {

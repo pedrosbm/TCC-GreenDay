@@ -1,30 +1,34 @@
-@media (max-width: 720px){
+@media (max-width: 768px){
     header figure h1 {
-        font-size: 1.5rem;
+        font-size: 2.4rem;
     }
 
     h1, h1 > span{
-        font-size: 2.125rem;
+        font-size: 3.4rem;
     }
 
     main h1 {
-        margin-bottom: 4rem;
+        margin-bottom: 3.0rem;
     }
 
     h2 {
-        font-size: 1.25rem;
+        font-size: 2.0rem;
     }
 
     strong {
-        font-size: 1.125rem;
+        font-size: 1.8rem;
     }
 
     section {
-        margin-block: 2.375rem;
+        margin-block: 3.8rem;
     }
     
     p{
-        font-size: 0.875rem;
+        font-size: 1.4rem;
+    }
+
+    .flexauxiliar > span{
+        flex: auto;
     }
     .desktop{
         display: none;
@@ -32,9 +36,6 @@
 
     .mobile {
         display: flex;
-    }
-    h1, h1 > span{
-        font-size: 2rem;
     }
 
     #btn-mobile {
@@ -44,8 +45,8 @@
     ul {
         display: block;
         position: absolute;
-        width: 100%;
-        top: 5.5rem;
+        width: auto;
+        top: 6.991rem;
         right: 0px;
         background: var(--back-in-black);
         transition: .6s;
@@ -56,20 +57,22 @@
     }
 
     #nav.active #menu {
-        height: calc(50vh - 6.8125rem);
+        height: calc(30vh - 6.991rem);
         visibility: visible;
-        overflow-y: auto;
+        width: auto;
     }
 
     #menu a{
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 1px solid rgba(196, 196, 196, 0.096);/*Mude a cor se quiser*/ /*tabom amorzinho <3*/
+        border-bottom: 1px solid var(--smooth-blue);
+        font-size: 1.4rem;
     }
 
     .first-section__box {
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-inline: 3rem;
     }
     
@@ -111,8 +114,8 @@
     }
 
     .third-section__box img {
-        width: 10rem;
-        height: 10rem;
+        width: 30vw;
+        height: 30vw;
     }
 
     .fourth-section__box {
@@ -141,8 +144,7 @@
     }
     
     .fifth-section__box img {
-        border-radius: 100%;
-        width: 10rem;
+        width: 30vw;
         margin-bottom: 1rem;
     }
     
@@ -158,6 +160,6 @@
 
     iframe  {
         width: 100%;
-        height: 30vh;
+        height: auto;
     }
 }
