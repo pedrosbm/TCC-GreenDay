@@ -14,7 +14,7 @@
 }
 
 .first-section__content {
-    margin-left: 2.5rem;
+    margin-left: 3rem;
     flex: 1;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .second-section__content2 {
-    margin-inline-start: 2rem;
+    margin-inline-start: 3rem;
 }
 
 .fourth-section__second-box{
@@ -73,7 +73,7 @@
 }
 
 .fourth-section__first-box {
-    margin-right: 1rem;
+    margin-right: 3rem;
     flex: 1;
 }
 
@@ -115,6 +115,10 @@
     margin-bottom: 1rem;
     width: 15vw;
 
+}
+
+.fifth-section__box strong {
+    margin-block: 1rem;
 }
 
 .footer-content {
