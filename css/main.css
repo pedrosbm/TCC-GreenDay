@@ -130,3 +130,9 @@
     display: flex;
     padding-inline: 10rem;
 }
+
+.links  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}

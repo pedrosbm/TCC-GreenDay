@@ -5,6 +5,7 @@ html {
     scroll-behavior: smooth;
     scroll-padding: 10rem;
     font-size: 62.5%;
+    line-height: 2.3rem;
 }
 
 .mobile{
