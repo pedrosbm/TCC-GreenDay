@@ -153,15 +153,5 @@
     .footer-content {
         margin: 3rem;
     }
-    
-    .sixth-section__box {
-        align-items: flex-start;
-        display: flex;
-        padding-inline: 5rem;
-    }
 
-    iframe  {
-        width: 100%;
-        height: auto;
-    }
 }

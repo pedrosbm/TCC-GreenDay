@@ -6,7 +6,7 @@
 .first-section__box {
     align-items: flex-start;
     display: flex;
-    padding-inline: 10rem;
+    padding-inline: 15rem;
 }
 
 .first-section__box figure{
@@ -21,7 +21,7 @@
 .second-section__box {
     display: flex;
     justify-items: auto;
-    padding-inline: 10rem;
+    padding-inline: 15rem;
     align-items: baseline;
 }
 
@@ -69,7 +69,7 @@
 .fourth-section__box {
     align-items: flex-start;
     display: flex;
-    padding-inline: 10rem;
+    padding-inline: 15rem;
 }
 
 .fourth-section__first-box {
@@ -125,14 +125,30 @@
     margin: 3rem;
 }
 
-.sixth-section__box {
-    align-items: flex-start;
-    display: flex;
-    padding-inline: 10rem;
-}
-
 .links  {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
+}
+
+.overlay {
+    z-index: 2;
+    position: absolute;
+    top: 1;
+    right: 1;
+    left: 1;
+    bottom: 0;
+    opacity: 0;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: .5s ease;
+    background-color: rgba(100, 170, 89, 0.92)
+  }
+
+.overlay p {
+    text-align: left;
+}
+
+.third-section__box figure:hover .overlay {
+    opacity: 1;
 }
