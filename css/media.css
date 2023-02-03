@@ -154,4 +154,19 @@
         margin: 3rem;
     }
 
+    .overlay {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        opacity: 0;
+        border-radius: 1rem;
+        padding: 2rem;
+        transition: .5s ease;
+        background-color: rgba(100, 170, 89, 0.92)
+    }
+    
 }
